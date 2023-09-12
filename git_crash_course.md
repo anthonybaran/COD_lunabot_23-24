@@ -1,8 +1,8 @@
 # Git Basics
 
-Distributed version control system 
+Distributed version control system
 
-## git GUI 
+## git GUI
 
 - GitKraken 
 - GUI tools have limitations 
@@ -43,10 +43,11 @@ refresher
 
 # Git Workflow 
 
-1. create a file 
+1. create/modify a file 
 2. add file to staging area 
 3. use commit command if files look right, files stay in staging area even after commit. 
 Once add command is used again, then files in staging area are updated. 
+4. Push code to github. Only commits are pushed, not files in staging area. 
 ***Always write a commit message***
 
 - If you delete a file that you previously added to the staging area, 
@@ -60,13 +61,16 @@ you still have to use the add command to get rid of it from the staging area
 - Author
 - Complete snapshot 
 
-## Connecting git to github
+## Git and github
 
 - link your folder to a github repository 
 `git remote add <name> <github repository>`
 
 - remove a link to github repository 
 `git remote remove <name>`
+
+- view github branches
+`git remote -v`
 
 Push: uploading code to github
 
@@ -75,13 +79,25 @@ Pull: Downloading code from github
 - Set up proper credentials to push to github
 `git config --global credential.username "<githubusername>"`
 
--To push
-`git push <github remote repository> master`
+- To push
+`git push <github remote repository name> master`
+
+- To copy a github repository on a local repository
+`git clone <github repository link> <name of new folder>`
+
+- update your branch to the current branch in github
+`git fetch`
+
+- Pull changes from github 
+`git pull <remote repository to pull from> <which branch to pull from>`
+
+- setup ssh key so you don't have to use your password to push
+
 
 # Git Commands 
 ### A lot of this can be done from vscode 
 
-- Initialize a directory to create a new git project 
+- Initialize a directory to create a new git project
 `git init`
 - creates a hidden .git folder where info is stored about your project history, don't touch it 
 
@@ -148,6 +164,10 @@ Pull: Downloading code from github
 
 - Checkout without branching 
 `git checkout <commit ID or Branch name> <file.txt,folder, or peroid>`
+
+- override previous commint 
+`git commit --amend -m "message"`
+
 
 
 
