@@ -93,6 +93,23 @@ Pull: Downloading code from github
 
 - setup ssh key so you don't have to use your password to push
 
+## Branching and Merging 
+
+Used a lot when working with a team
+
+Branching allows you to work on multiple things at the same time
+
+- Create a branch
+`git branch <branch name>`
+
+- Switch to work on a new branch
+`git checkout <branch name>`
+
+Merging contains changes from all branches, result will be on the branch you are currently woring on.
+
+- merging
+`git merge <name of branch to merge into your current branch>`
+
 
 # Git Commands 
 ### A lot of this can be done from vscode 
