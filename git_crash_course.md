@@ -41,7 +41,7 @@ refresher
 `git config -h`
 
 
-### Git Workflow 
+# Git Workflow 
 
 1. create a file 
 2. add file to staging area 
@@ -52,7 +52,7 @@ Once add command is used again, then files in staging area are updated.
 - If you delete a file that you previously added to the staging area, 
 you still have to use the add command to get rid of it from the staging area
 
-# Commits
+## Commits
 
 - ID
 - Message 
@@ -69,6 +69,7 @@ you still have to use the add command to get rid of it from the staging area
 `git remote remove <name>`
 
 Push: uploading code to github
+
 Pull: Downloading code from github
 
 - Set up proper credentials to push to github
@@ -77,8 +78,8 @@ Pull: Downloading code from github
 -To push
 `git push <github remote repository> master`
 
-## Git Commands 
-# A lot of this can be done from vscode 
+# Git Commands 
+### A lot of this can be done from vscode 
 
 - Initialize a directory to create a new git project 
 `git init`
