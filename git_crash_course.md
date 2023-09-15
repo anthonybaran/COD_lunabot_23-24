@@ -11,6 +11,8 @@ Distributed version control system
 
 ## Install Git
 
+[Installation instructions] (https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+
 - To view git version
 `git version`  
 
