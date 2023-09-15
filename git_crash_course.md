@@ -4,7 +4,7 @@ Distributed version control system
 
 ## git GUI
 
-- GitKraken 
+- GitKraken
 - GUI tools have limitations 
 - Not always available
 - Important to know how to use the command line along side GUI tools 
